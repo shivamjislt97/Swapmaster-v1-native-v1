@@ -43,7 +43,7 @@ The complete project backup (5.5GB) is on Google Drive. Download and extract it:
 cd /teamspace/studios/this_studio
 
 # Download backup from GDrive
-curl -L -o swapmaster.tar "https://drive.google.com/uc?id=YOUR_GDRIVE_BACKUP_FILE_ID"
+curl -L -o swapmaster.tar "https://drive.google.com/uc?id=1BxgfUV4i9LJWXNMMxlIGk7aRp05x93pb"
 
 # Extract
 tar xf swapmaster.tar
@@ -442,7 +442,7 @@ rclone copy /tmp/swapmaster-v1-native-v1.tar.gz gdrive:swapmaster-v1-native-v1/ 
 | GDrive Client ID | `YOUR_GDRIVE_CLIENT_ID` | OAuth client |
 | GDrive Client Secret | `YOUR_GDRIVE_CLIENT_SECRET` | OAuth secret |
 | ngrok Authtoken | `YOUR_NGROK_AUTHTOKEN` | Dashboard tunnel |
-| GDrive Backup File ID | `YOUR_GDRIVE_BACKUP_FILE_ID` | Backup on GDrive |
+| GDrive Backup File ID | `1BxgfUV4i9LJWXNMMxlIGk7aRp05x93pb` | Backup on GDrive |
 | GitHub Repo | `https://github.com/shivamjislt97/Swapmaster-v1-native-v1` | Source code |
 | Project Path | `/teamspace/studios/this_studio/swapmaster-v1-native` | On Lightning AI |
 
